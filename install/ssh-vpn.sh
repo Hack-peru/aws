@@ -3,7 +3,7 @@
 # 
 # ==================================================
 
-GitUser="syapik96"
+GitUser="Hack-peru"
 #wget https://github.com/${GitUser}/
 
 # initializing var
@@ -109,20 +109,20 @@ apt -y install nginx
 cd
 #rm /etc/nginx/sites-enabled/default
 #rm /etc/nginx/sites-available/default
-wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/syapik96/aws/main/nginx.conf"
+wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/Hack-peru/aws/main/nginx.conf"
 
 Index_port='81'
 IPADDR=$(wget -qO- icanhazip.com);
 # creating page download Openvpn config file
 mkdir -p /home/vps/public_html
-wget -O /home/vps/public_html/index.html "https://raw.githubusercontent.com/syapik96/aws/main/lain2/index.html"
+wget -O /home/vps/public_html/index.html "https://raw.githubusercontent.com/Hack-peru/aws/main/lain2/index.html"
 
 # Setting template's correct name,IP address and nginx Port Page Openvpn
 sed -i "s|NGINXPORT|$Index_port|g" /home/vps/public_html/index.html
 sed -i "s|IP-ADDRESS|$IPADDR|g" /home/vps/public_html/index.html
 
 # Restarting nginx service
-wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/syapik96/aws/main/vps.conf"
+wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/Hack-peru/aws/main/vps.conf"
 systemctl restart nginx
 
 cd
@@ -252,17 +252,17 @@ sed -i 's/ENABLED=0/ENABLED=1/g' /etc/default/stunnel4
 systemctl restart stunnel4
 
 # websocket-python
-wget "https://raw.githubusercontent.com/syapik96/aws/main/websocket-python/websocket.sh"
+wget "https://raw.githubusercontent.com/Hack-peru/aws/main/websocket-python/websocket.sh"
 chmod +x websocket.sh
 screen -S websocket ./websocket.sh
 #OpenVPN
 
-wget "https://raw.githubusercontent.com/syapik96/aws/main/install/vpn.sh"
+wget "https://raw.githubusercontent.com/Hack-peru/aws/main/install/vpn.sh"
 chmod +x vpn.sh
 ./vpn.sh
 
 # install badvpn
-#wget -O /usr/bin/badvpn-udpgw "https://github.com/syapik96/aws/raw/main/badvpn-udpgw64"
+#wget -O /usr/bin/badvpn-udpgw "https://github.com/Hack-peru/aws/raw/main/badvpn-udpgw64"
 #chmod +x /usr/bin/badvpn-udpgw
 
 # install badvpnCDN
@@ -347,7 +347,7 @@ iptables-restore -t < /etc/iptables.up.rules
 netfilter-persistent save
 netfilter-persistent reload
 
-GitUser="syapik96"
+GitUser="Hack-peru"
 # download script
 cd /usr/local/sbin
 wget -O add-host "https://raw.githubusercontent.com/${GitUser}/aws/main/add-host.sh" && chmod +x add-host
@@ -416,5 +416,5 @@ mv /root/cert.pem /root/folderCert/cert.pem
 mv /root/key.pem /root/folderCert/key.pem 
 
 # finihsing
-prince
+Cyberperu
 netstat -nutlp
