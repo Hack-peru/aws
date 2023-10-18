@@ -1,6 +1,6 @@
 #!/bin/bash
 
 clear
-prince
+Cyberperu
 cat /root/log-install.txt
 echo ""
