@@ -1,18 +1,18 @@
 #!/bin/bash
-#Script Mod by Prince AKA syapik96
+#Script Mod by Cyberperu DEMS Hack-peru
 figlet -cf slant "Welcome" | lolcat
 figlet -cf slant "Free AutoScript " | lolcat
 echo -e "    #====================================================================#" | lolcat
-echo -e "    #                  Premium Script By PrinceNewbie                    #" | lolcat
+echo -e "    #                  Premium Script By Cyberperu                    #" | lolcat
 echo -e "    #                                                                    #" | lolcat
 echo -e "    #         ░█▀▀▀█ ░█▄─░█ ░█▀▀▀ 　 ░█▀▀█ ▀█▀ ░█▀▀▀ ░█▀▀█ ░█▀▀▀         #" | lolcat
 echo -e "    #         ░█──░█ ░█░█░█ ░█▀▀▀ 　 ░█▄▄█ ░█─ ░█▀▀▀ ░█─── ░█▀▀▀         #" | lolcat
 echo -e "    #         ░█▄▄▄█ ░█──▀█ ░█▄▄▄ 　 ░█─── ▄█▄ ░█▄▄▄ ░█▄▄█ ░█▄▄▄         #" | lolcat
 echo -e "    #                                                                    #" | lolcat
-echo -e "    #                        - Modded By : PrinceNewbie                  #" | lolcat
-echo -e "    #          │▒│  /▒/      - Thanks To : syapik96                      #" | lolcat
+echo -e "    #                        - Modded By : Cyberperu                  #" | lolcat
+echo -e "    #          │▒│  /▒/      - Thanks To : Hack-peru                      #" | lolcat
 echo -e "    #          │▒│ /▒/       - Whatsapp  : *********                     #" | lolcat
-echo -e "    #          │▒|/▒/┬─┐     - Telegram  : t.me/PrinceNewbie             #" | lolcat
+echo -e "    #          │▒|/▒/┬─┐     - Telegram  : t.me/CYBERPERU_P            #" | lolcat
 echo -e "    #          │▒│▒|▒│▒│     - For those who use this script,            #" | lolcat
 echo -e "    #         ┌┴─┴─┐-┘─┘       this script is still under development    #" | lolcat
 echo -e "    #         │▒┌──┘▒▒▒│     - Thanks for who using this script          #" | lolcat
@@ -20,6 +20,6 @@ echo -e "    #         └┐▒▒▒▒▒▒┌┘     - To EnterMenuList = '
 echo -e "    #                                                                    #" | lolcat
 echo -e "    #====================================================================#" | lolcat
 echo -e " "
-echo -e "                             \e[1;32mPowered By Syapik96\e[0m"
-echo -e "                       \e[1;32m\e[1;32mCOPYRIGHT © 2022 Prince Newbie\e[0m"
+echo -e "                             \e[1;32mPowered By Cyberperu\e[0m"
+echo -e "                       \e[1;32m\e[1;32mCOPYRIGHT © 2022 Cyberperu Newbie\e[0m"
 echo -e "                \e[1;32mPrivacy Policy Terms & Conditions Disclaimer\e[0m"
