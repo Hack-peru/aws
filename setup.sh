@@ -179,6 +179,6 @@ echo -e " Telegram : t.me/CYBERPERU_P" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 sleep 8
 clear 
-figlet -f slant "Good Bye By Cyberperu" | lolcat
+figlet -f slant "Cyberperu" | lolcat
 sleep 2
 reboot
