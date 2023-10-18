@@ -133,7 +133,7 @@ clear
 figlet -f slant "Server Will Reboot in 10sec" | lolcat
 echo  " "
 echo -e "=================-AutoScript VPN-Batch-====================" | lolcat  | tee -a log-install.txt
-echo -e "\e[1;31m -----------------\e[0m\e[1;32m[\e[0m \e[1;43m\e[1;31mModified by Prince\e[0m \e[1;32m]\e[0m\e[1;31m------------------\e[0m" | tee -a log-install.txt
+echo -e "\e[1;31m -----------------\e[0m\e[1;32m[\e[0m \e[1;43m\e[1;31mModified by Cyberperu\e[0m \e[1;32m]\e[0m\e[1;31m------------------\e[0m" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo -e "    \e[31m[\e[0m\e[1;42m       Service        \e[0m\e[31m]   [\e[0m\e[1;42m   Port   \e[0m\e[31m]\e[0m" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
@@ -175,7 +175,7 @@ echo "   - Installation Log --> /root/log-install.txt" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo -e "\e[97m------------\e[0m\e[100m\e[97mCopyright © 2022 \e[1;104mBy Gitub.com/Hack-peru\e[0m\e[97m-------------\e[0m" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo -e " Telegram : t.me/PrinceNewbie" | tee -a log-install.txt
+echo -e " Telegram : t.me/CYBERPERU_P" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 sleep 8
 clear 
