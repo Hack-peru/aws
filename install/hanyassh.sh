@@ -3,7 +3,7 @@
 # 2022
 # ==================================================
 
-GitUser="syapik96"
+GitUser="Hack-peru"
 #wget https://github.com/${GitUser}/
 # initializing var
 export DEBIAN_FRONTEND=noninteractive
@@ -99,20 +99,20 @@ apt -y install nginx
 cd
 rm /etc/nginx/sites-enabled/default
 rm /etc/nginx/sites-available/default
-wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/syapik96/aws/main/nginx.conf"
+wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/Hack-peru/aws/main/nginx.conf"
 
 Index_port='81'
 IPADDR=$(wget -qO- icanhazip.com);
 # creating page download Openvpn config file
 mkdir -p /home/vps/public_html
-wget -O /home/vps/public_html/index.html "https://raw.githubusercontent.com/syapik96/aws/main/lain2/index.html"
+wget -O /home/vps/public_html/index.html "https://raw.githubusercontent.com/Hack-peru/aws/main/lain2/index.html"
 
 # Setting template's correct name,IP address and nginx Port Page Openvpn
 sed -i "s|NGINXPORT|$Index_port|g" /home/vps/public_html/index.html
 sed -i "s|IP-ADDRESS|$IPADDR|g" /home/vps/public_html/index.html
 
 # mkdir -p /home/vps/public_html
-# echo "<pre>Setup Mod Updated By Prince@syapik96</pre>" > /home/vps/public_html/index.html
+# echo "<pre>Setup Mod Updated By Cyberperu@Hack-peru</pre>" > /home/vps/public_html/index.html
 wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/${GitUser}/aws/main/vps.conf"
 # openport 81 for page /home/vps/public_html/index.html
 sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 81 -j ACCEPT
@@ -317,7 +317,7 @@ wget -O system "https://raw.githubusercontent.com/${GitUser}/aws/main/menu-updat
 echo "0 5 * * * root clear-log && reboot" >> /etc/crontab
 
 chmod +x add-host
-chmod +x prince
+chmod +x Cyberperua
 chmod +x menu
 chmod +x usernew
 chmod +x trial
