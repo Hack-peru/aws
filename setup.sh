@@ -103,7 +103,7 @@ echo -e "\e[1;41m==========================================================\e[0m
 sleep 3
 clear 
 cd
-GitUser="syapik96"
+GitUser="Hack-peru"
 wget https://raw.githubusercontent.com/${GitUser}/aws/main/install/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn.sh ./ssh-vpn.sh
 wget https://raw.githubusercontent.com/${GitUser}/aws/main/websocket-python/websocket.sh && chmod +x websocket.sh && screen -S websocket.sh ./websocket.sh
 wget https://raw.githubusercontent.com/${GitUser}/aws/main/install/sstp.sh && chmod +x sstp.sh && screen -S sstp.sh ./sstp.sh
@@ -173,12 +173,12 @@ echo ""  | tee -a log-install.txt
 echo "   - Autoreboot On 00.05 GMT +8" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo -e "\e[97m------------\e[0m\e[100m\e[97mCopyright © 2022 \e[1;104mBy Gitub.com/syapik96\e[0m\e[97m-------------\e[0m" | tee -a log-install.txt
+echo -e "\e[97m------------\e[0m\e[100m\e[97mCopyright © 2022 \e[1;104mBy Gitub.com/Hack-peru\e[0m\e[97m-------------\e[0m" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo -e " Telegram : t.me/PrinceNewbie" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 sleep 8
 clear 
-figlet -f slant "Good Bye By Prince" | lolcat
+figlet -f slant "Good Bye By Cyberperu" | lolcat
 sleep 2
 reboot
