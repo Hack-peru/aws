@@ -1,7 +1,7 @@
 #!/bin/bash
 #Script Mod by Cyberperu DEMS Hack-peru
 figlet -cf slant "Welcome" | lolcat
-figlet -cf slant "Free AutoScript " | lolcat
+figlet -cf slant "Cyberperu" | lolcat
 echo -e "    #====================================================================#" | lolcat
 echo -e "    #                  Premium Script By Cyberperu                    #" | lolcat
 echo -e "    #                                                                    #" | lolcat
